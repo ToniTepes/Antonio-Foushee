@@ -166,6 +166,22 @@ The "About" page is created as a miscellaneous post.
 
 Any kind of contributions are welcome. Bump the version and create a PR.
 
+==============================================================================================================================================================================================
+
+What I did.
+
+. Make sure node and [Gatsby](https://www.gatsbyjs.org/tutorial/part-zero/) installed
+
+. cd to directory
+
+. Install you prefered package manager
+    .. yarn add
+
+. To run your project
+    .. gatsby develop to run
+
+. To add pagination to split site into multipule pages
+    ..yarn add gatsby-awesome-pagination
 
 
 
