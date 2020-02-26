@@ -3,7 +3,7 @@ import Head from "./head";
 import Navbar from "./navbar";
 import Footer from "./footer";
 
-const Layout = ({ placeholder, children }) => {
+const Layout = ({ placeholder, children, showFooter = true }) => {
     return (
         <React.Fragment>
             <Head />
@@ -11,7 +11,7 @@ const Layout = ({ placeholder, children }) => {
                 placeholder={placeholder === undefined ? true : placeholder}
             />
             <div className="wrapper">{children}</div>
-            <Footer />
+            {showFooter ? <Footer /> : null}
         </React.Fragment>
     );
 };

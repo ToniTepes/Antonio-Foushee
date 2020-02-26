@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
     componentDidMount() {
         this.setWindowHeight();
         let _this = this;
-        window.addEventListener("resize", function() {
+        window.addEventListener("resize", function () {
             _this.setWindowHeight();
         });
         let sWidth = this.svg.clientWidth,
@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
             let tInnerText = tText.innerHTML;
             if (tInnerText.split(" ").length > 1) {
                 tText.innerHTML = "";
-                tInnerText.split(" ").forEach(function(e, i) {
+                tInnerText.split(" ").forEach(function (e, i) {
                     let tSpan = _this.createSVGElement("tspan", {
                         dy: i === 0 ? "0em" : ".8em",
                         x: "50"
@@ -44,7 +44,7 @@ class IndexPage extends React.Component {
                     tSpan.innerHTML = e;
                     tText.appendChild(tSpan);
                 });
-                setTimeout(function() {
+                setTimeout(function () {
                     _this.svg.style.height =
                         tText.getBoundingClientRect().height + 70;
                     _this.svg.style.margin = "15px auto";
@@ -69,7 +69,7 @@ class IndexPage extends React.Component {
     }
     render() {
         return (
-            <Layout placeholder={false}>
+            <Layout showFooter={false} placeholder={false}>
                 <SEO
                     lang="en"
                     title={this.props.data.site.siteMetadata.title}
@@ -87,10 +87,11 @@ class IndexPage extends React.Component {
                                 preserveAspectRatio="xMidYMid slice"
                                 ref={c => (this.svg = c)}
                             >
-                                {this.props.data.site.siteMetadata
+                                {/* {this.props.data.site.siteMetadata
                                     .capitalizeTitleOnHome
                                     ? this.props.data.site.siteMetadata.title.toUpperCase()
-                                    : this.props.data.site.siteMetadata.title}
+                                    : this.props.data.site.siteMetadata.title} */}
+                                Antonio
                                 <pattern
                                     id="wallPattern"
                                     patternUnits="userSpaceOnUse"
@@ -116,14 +117,19 @@ class IndexPage extends React.Component {
                                     fill="url(#wallPattern)"
                                     textAnchor="middle"
                                     x="50"
-                                    y="50"
+                                    y="48"
                                 >
-                                    {this.props.data.site.siteMetadata
-                                        .capitalizeTitleOnHome
-                                        ? this.props.data.site.siteMetadata.title.toUpperCase()
-                                        : this.props.data.site.siteMetadata
-                                              .title}
+                                    Antonio
                                 </text>
+                                <text
+                                    fill="url(#wallPattern)"
+                                    textAnchor="middle"
+                                    x="50"
+                                    y="59"
+                                >
+                                    Foushee
+                                </text>
+
                             </svg>
                         </div>
                         <p className="tag-line text-secondary">
