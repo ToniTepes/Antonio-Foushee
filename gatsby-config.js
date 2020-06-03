@@ -1,8 +1,8 @@
 let siteMetadata = {
     title: `Antonio Foushee`,
     capitalizeTitleOnHome: true,
-    logo: `https://scontent-ort2-2.cdninstagram.com/v/t51.2885-15/e35/19623006_1893862597548072_6874709749888188416_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com&_nc_cat=100&_nc_ohc=joaaNdxAJyIAX9e7zYe&oh=cbe627c0a1a83a1de8823a559de2088d&oe=5E93B0FC`,
-    icon: `/images/icon.png`,
+    logo: `/images/me1.png`,
+    icon: `/images/me1.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `WEB DEVELOPER | PHOTOGRAPHER | MUSICIAN | MECHANIC`,
     description: `"Innovation happens in the spaces between formal disciplines"`,
@@ -40,33 +40,33 @@ let siteMetadata = {
         },
         {
             name: "GitHub",
-            url: "https://github.com/ToniTepes"
+            url: "https://www.clipartmax.com/png/small/165-1654354_character-correlation-in-phylogenetics-github-logo.png"
         }
     ],
     social: [
         {
             name: "Facebook",
-            icon: "/images/facebook_icon-icons.com_59205.svg",
+            icon: "/images/Facebook2.png",
             url: "https://www.facebook.com/ASF.666.7734"
         },
         {
             name: "Twitter",
-            icon: "/images/twitter_2_icon-icons.com_59206.svg",
+            icon: "/images/Twitter4.png",
             url: "https://twitter.com/toni_tepes"
         },
         {
             name: "Instagram",
-            icon: "/images/1491580635-yumminkysocialmedia26_83102.png",
+            icon: "/images/Instagram2.png",
             url: "https://www.instagram.com/tonitepes/"
         },
         {
             name: "GitHub",
-            icon: "/images/github_icon-icons.com_59223.svg",
+            icon: "/images/github1.png",
             url: "https://github.com/ToniTepes"
         },
         {
             name: "LinkedIn",
-            icon: "/images/linkedin_icon-icons.com_59208.svg",
+            icon: "/images/linkedin.png",
             url: "https://www.linkedin.com/in/antonio-foushee-029b19131/"
         }
 
@@ -75,9 +75,9 @@ let siteMetadata = {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        mail: "AntonioStacy@gmail.com",
+        phone: "216.505.0703",
+        address: "Cleveland, OH"
     }
 };
 
