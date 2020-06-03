@@ -74,7 +74,7 @@ let siteMetadata = {
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
-        description: `Thank you for viewing. Please send me questions you may have.`,
+        description: `Thank you for viewing. Please send me questions you may have!`,
         mail: "AntonioStacy@gmail.com",
         phone: "216.505.0703",
         address: "Cleveland, OH"
@@ -83,6 +83,7 @@ let siteMetadata = {
 
 module.exports = {
     siteMetadata: siteMetadata,
+    pathPrefix: "/Toni-Gatsby-Portfolio",
     plugins: [
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
@@ -113,6 +114,6 @@ module.exports = {
             options: {
                 strictMath: true
             }
-        }
+        },
     ]
 };
