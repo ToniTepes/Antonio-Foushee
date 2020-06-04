@@ -90,6 +90,13 @@ module.exports = {
                 plugins: [
                     "gatsby-remark-copy-linked-files",
                     {
+                        resolve: "gatsby-remark-external-links",
+                        options: {
+                            target: "_blank",
+                            rel: "nofollow"
+                        }
+                    },
+                    {
                         resolve: `gatsby-remark-images`,
                         options: {
                             maxWidth: 1280

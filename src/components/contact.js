@@ -40,11 +40,11 @@ class Contact extends React.Component {
                 message = encodeURI(this.dataMessage.value),
                 body = `name=${name}&email=${email}&message=${message}`;
 
-            fetch("http://localhost/local/test.json", {
+            fetch("https://getform.io/f/ec22181a-99c8-4765-8924-065c25566091", {
                 method: "post",
                 body: body
             })
-                .then(function(res) {
+                .then(function (res) {
                     return res.json();
                 })
                 .then(
@@ -66,7 +66,7 @@ class Contact extends React.Component {
                         this.dataEmail.value = "";
                         this.dataMessage.value = "";
                         let _this = this;
-                        setTimeout(function() {
+                        setTimeout(function () {
                             _this.resMessage.style.opacity = 0;
                         }, 5000);
                     },
@@ -77,7 +77,7 @@ class Contact extends React.Component {
                             submitDisabled: false
                         });
                         let _this = this;
-                        setTimeout(function() {
+                        setTimeout(function () {
                             _this.resMessage.style.opacity = 0;
                         }, 5000);
                     }
@@ -95,7 +95,7 @@ class Contact extends React.Component {
 
         let li = this.contactArea.querySelectorAll(".item");
 
-        li.forEach(function(e, i) {
+        li.forEach(function (e, i) {
             let p = e.querySelector("path");
             if (p)
                 p.setAttribute(
@@ -185,7 +185,7 @@ class Contact extends React.Component {
                                             id="submit"
                                             ref={c => (this.btn = c)}
                                         >
-                                            SEND{" "}
+                                            SEND{""}
                                             <span
                                                 className="icon paper-plane"
                                                 style={{
@@ -239,6 +239,7 @@ class Contact extends React.Component {
                                         <Envelope />
                                     </span>
                                     <a
+                                        target="_blank"
                                         href={
                                             "mailto:" + this.props.contact.mail
                                         }
