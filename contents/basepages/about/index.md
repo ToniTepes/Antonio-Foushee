@@ -1,7 +1,7 @@
 ---
 title: About
 template: basepage
-image: ./me1.png
+image: ./ME.png
 ---
 
 

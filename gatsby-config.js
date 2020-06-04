@@ -1,8 +1,8 @@
 let siteMetadata = {
     title: `Antonio Foushee`,
     capitalizeTitleOnHome: true,
-    logo: `/images/me1.png`,
-    icon: `/images/me1.png`,
+    logo: `/images/ME.png`,
+    icon: `/images/ME.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `WEB DEVELOPER | PHOTOGRAPHER | MUSICIAN | MECHANIC`,
     description: `"Innovation happens in the spaces between formal disciplines"`,

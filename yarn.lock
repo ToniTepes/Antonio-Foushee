@@ -12772,7 +12772,7 @@ vfile-message@^1.0.0:
 vfile@^1.0.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/vfile/-/vfile-1.4.0.tgz#c0fd6fa484f8debdb771f68c31ed75d88da97fe7"
-  integrity sha1-wP1vpIT43r23cfaMMe112I2pf+c=
+  integrity sha1-wP1vpIT43r23cfaMME12I2pf+c=
 
 vfile@^2.0.0:
   version "2.3.0"
