@@ -24,10 +24,10 @@ let siteMetadata = {
             name: "BLOG",
             url: "/blog"
         },
-        {
-            name: "CONTACT",
-            url: "/contact"
-        }
+        // {
+        //     name: "CONTACT",
+        //     url: "/contact"
+        // }
     ],
     footerLinks: [
         {
