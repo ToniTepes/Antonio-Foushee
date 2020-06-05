@@ -3,7 +3,7 @@ let siteMetadata = {
     capitalizeTitleOnHome: true,
     logo: `/images/ME.png`,
     icon: `/images/ME.png`,
-    titleImage: `/images/wall.jpg`,
+    titleImage: `/images/fallfo.jpg`,
     introTag: `WEB DEVELOPER | PHOTOGRAPHER | MUSICIAN | MECHANIC`,
     description: `"Innovation happens in the spaces between formal disciplines"`,
     author: `@_ToniTepes`,
@@ -20,10 +20,10 @@ let siteMetadata = {
             name: "ABOUT",
             url: "/about"
         },
-        {
-            name: "BLOG",
-            url: "/blog"
-        },
+        // {
+        //     name: "BLOG",
+        //     url: "/blog"
+        // },
         // {
         //     name: "CONTACT",
         //     url: "/contact"
