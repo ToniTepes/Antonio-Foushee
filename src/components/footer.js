@@ -5,7 +5,7 @@ import Navlinks from "./navlinks";
 import FooterLinks from "./footer-links";
 import "../style/footer.less";
 
-export default function() {
+export default function () {
     const query = useStaticQuery(graphql`
         query {
             site {
@@ -19,14 +19,14 @@ export default function() {
     return (
         <footer className="footer">
             <div className="container">
-                <div className="logo">
+                {/* <div className="logo">
                     <Link to="/" title={query.site.siteMetadata.title}>
                         <Logo />
                     </Link>
-                </div>
-                <div className="navlinks text-secondary">
+                </div> */}
+                {/* <div className="navlinks text-secondary">
                     <Navlinks />
-                </div>
+                </div> */}
                 <div
                     className="navlinks text-secondary"
                     style={{ marginTop: "20px" }}

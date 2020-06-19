@@ -31,12 +31,12 @@ let siteMetadata = {
     ],
     footerLinks: [
         {
-            name: "PRIVACY POLICY",
-            url: "/privacy-policy"
+            name: "",
+            url: ""
         },
         {
-            name: "GitHub",
-            url: "https://www.clipartmax.com/png/small/165-1654354_character-correlation-in-phylogenetics-github-logo.png"
+            name: "",
+            url: ""
         }
     ],
     social: [
