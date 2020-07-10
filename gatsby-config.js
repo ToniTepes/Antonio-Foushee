@@ -20,6 +20,11 @@ let siteMetadata = {
             name: "ABOUT",
             url: "/about"
         },
+        {
+            name: "RESUME",
+            url: "https://drive.google.com/file/d/15A9m74dAl3LAjTnEt0Lj8O6Y_rJK_xuT/view?usp=sharing",
+            target: "_blank"
+        },
         // {
         //     name: "BLOG",
         //     url: "/blog"
