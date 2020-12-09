@@ -22,8 +22,8 @@ let siteMetadata = {
         },
         {
             name: "RESUME",
-            url: "https://drive.google.com/file/d/15A9m74dAl3LAjTnEt0Lj8O6Y_rJK_xuT/view?usp=sharing",
-            target: "_blank"
+            url: "https://drive.google.com/file/d/1XRMBJw3MaaYvKZ8NmfnIp1N2G6ijzh4g/view?usp=sharing"
+
         },
         // {
         //     name: "BLOG",
