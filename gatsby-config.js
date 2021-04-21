@@ -4,7 +4,7 @@ let siteMetadata = {
     logo: `/images/ME.png`,
     icon: `/images/ME.png`,
     titleImage: `/images/fallfo.jpg`,
-    introTag: `WEB DEVELOPER | PHOTOGRAPHER | MUSICIAN | MECHANIC`,
+    introTag: `WRITER | PHOTOGRAPHER | MUSICIAN | MECHANIC | DEVELOPER`,
     description: `"Innovation happens in the spaces between formal disciplines"`,
     author: `@_ToniTepes`,
     blogItemsPerPage: 10,
@@ -58,7 +58,7 @@ let siteMetadata = {
         {
             name: "Instagram",
             icon: "/images/Instagram2.png",
-            url: "https://www.instagram.com/tonitepes/"
+            url: "https://www.instagram.com/toni.tepes/"
         },
         {
             name: "GitHub",
@@ -68,8 +68,18 @@ let siteMetadata = {
         {
             name: "LinkedIn",
             icon: "/images/linkedin.png",
-            url: "https://www.linkedin.com/in/antonio-foushee-029b19131/"
-        }
+            url: "https://www.linkedin.com/in/antonio-stacy-foushee-029b19131/"
+        },
+        {
+            name: "Patreon",
+            icon: "/images/pngaaa.com-1658499.png",
+            url: "https://www.patreon.com/antoniofoushee"
+        },
+        {
+            name: "BandCamp",
+            icon: "/images/9o1oo8n6f5lto8vnd6gv9n9h48.png",
+            url: "https://minoritythreat.bandcamp.com/"
+        },
 
     ],
     contact: {
