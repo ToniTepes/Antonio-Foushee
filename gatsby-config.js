@@ -80,6 +80,18 @@ let siteMetadata = {
             icon: "/images/9o1oo8n6f5lto8vnd6gv9n9h48.png",
             url: "https://minoritythreat.bandcamp.com/"
         },
+        {
+            name: "CashApp",
+            icon: "/images/pngfind.com-venmo-png-6407096.png",
+            url: "http://cash.app/AntonioFoushee"
+        },
+        {
+            name: "Venmo",
+            icon: "/images/pngjoy.com_venmo-venmo-logo-png-transparent-png_20523003.png",
+            url: "https://venmo.com/code?user_id=2719395168124928589&created=1624044806"
+        },
+
+
 
     ],
     contact: {
